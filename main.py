@@ -39,9 +39,4 @@ input_field = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPA
 input_field.send_keys('Im new here')
 post_button = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, '//span[text()="Post"]')))
 post_button.click()
-# time.sleep(5)
-# buttons = driver.find_element_by_tag_name('button')
-# time.sleep(5)
-# for button in buttons:
-#     if button.text == 'Post':
-#         button.click()
+
